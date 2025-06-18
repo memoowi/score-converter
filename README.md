@@ -3,7 +3,6 @@ by [_Memoowi_](https://instagram.com/me_moowi)
 
 A simple yet flexible Python script to perform min-max normalization on a list of scores. It scales the numbers from their original range to a new, specified integer range. This is a common requirement for data preprocessing, adjusting grading schemes, or any scenario where data needs to be mapped to a consistent scale.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ A simple yet flexible Python script to perform min-max normalization on a list o
 - **Edge Case Handling:** Correctly handles cases where all input scores are identical, avoiding division-by-zero errors.
 - **Easy to Customize:** Written in a clear and straightforward manner, making it easy to modify the input data and scaling parameters.
 
----
 
 ## How It Works
 
@@ -29,7 +27,6 @@ Where:
 - `NewMin`: The desired minimum value for the new range.
 - `NewMax`: The desired maximum value for the new range.
 
----
 
 ## Usage
 
@@ -81,7 +78,6 @@ To use the script for your own data, open `converter.py` and modify the followin
     # rounded_scores = [math.ceil(score) for score in converted_scores]
     ```
 
----
 
 ## License
 
